@@ -4,17 +4,17 @@
 
 
 project: sys_console_debug_uart_read_write
-creation_date: 2020-06-16T19:53:18.895+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2020-07-18T00:29:30.703+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mhc_mode: IDE            # [IDE|Standalone|Headless]
 mplabx_version: --Please Update your plugin--        # if MPLAB X plugin only
 plugin_version: v3.4.2        # if MPLAB X plugin only
 
 modules:
-    - {name: "bootloader", version: "unknown"}
-    - {name: "bsp", version: "v3.7.0"}
+    - {name: "bootloader", version: "v3.4.0-rc.2"}
+    - {name: "bsp", version: "unknown"}
     - {name: "CMSIS-FreeRTOS", version: "unknown"}
-    - {name: "core", version: "v3.7.1"}
+    - {name: "core", version: "unknown"}
     - {name: "crypto", version: "v3.5.1"}
     - {name: "cryptoauthlib", version: "unknown"}
     - {name: "csp", version: "unknown"}
@@ -30,6 +30,7 @@ modules:
     - {name: "microchip-mplab-harmony.github.io.wiki", version: "unknown"}
     - {name: "mplabx_plugin", version: "v3.4.0-tc.1"}
     - {name: "net", version: "unknown"}
+    - {name: "packs", version: "unknown"}
     - {name: "touch", version: "v3.5.0"}
     - {name: "usb", version: "v3.5.0"}
     - {name: "wolfssl", version: "v4.3.0"}
