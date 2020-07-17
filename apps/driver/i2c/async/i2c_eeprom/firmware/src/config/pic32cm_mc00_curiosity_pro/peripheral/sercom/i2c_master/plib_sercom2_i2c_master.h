@@ -89,11 +89,6 @@ void SERCOM2_I2C_CallbackRegister(SERCOM_I2C_CALLBACK callback, uintptr_t contex
 
 bool SERCOM2_I2C_TransferSetup(SERCOM_I2C_TRANSFER_SETUP* setup, uint32_t srcClkFreq );
 
-bool SERCOM2_I2C_Read_HighSpeed(uint16_t address, uint8_t* rdData, uint32_t rdLength);
-
-bool SERCOM2_I2C_Write_HighSpeed(uint16_t address, uint8_t* wrData, uint32_t wrLength);
-
-bool SERCOM2_I2C_WriteRead_HighSpeed(uint16_t address, uint8_t* wrData, uint32_t wrLength, uint8_t* rdData, uint32_t rdLength);
 
 
 // DOM-IGNORE-BEGIN
