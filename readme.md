@@ -1,5 +1,5 @@
 ﻿---
-title: Harmony 3 peripheral library application examples for SAM E70/S70/V70/V71 family
+title: Harmony 3 core library application examples for PIC32CM MC00 family
 nav_order: 1
 ---
 
@@ -20,9 +20,8 @@ This repository contains the MPLAB® Harmony 3 core library application examples
 - [Release Notes](release_notes.md)
 - [MPLAB® Harmony License](mplab_harmony_license.md)
 
-To download or clone these application from the github, go to the top of the repository page and click:
-
-![clone](./docs/images/clone.png)
+To clone or download this application from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/core_apps_pic32cm_mc00) and then click Clone button to clone this repository or download as zip file.
+This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki).
 
 ## Contents Summary
 
@@ -35,9 +34,17 @@ To download or clone these application from the github, go to the top of the rep
 
 The following applications are provided to demonstrate the typical or interesting usage models of one or more peripheral libraries.
 
-| App Name | Description|
+| Name | Description|
 |:---------|:-----------|
-|[%Example Title% Example (%example name%)](./apps/%example path%/%example name%) | %Short Example Description%|
+| [I2C driver asynchronous mode single device](apps/driver/i2c/async/i2c_eeprom/readme.md) | This example application shows how to use the I2C driver in asynchronous mode to perform operations on the EEPROM |
+| [SPI Driver asynchronous mode multi-device](apps/driver/spi/async/spi_multi_slave/readme.md) | This example demonstrates how to use single instance of the SPI driver in asynchronous mode to communicate with multiple EEPROMs |
+| [USART driver asynchronous mode single device](apps/driver/usart/async/usart_echo/readme.md) | This example echoes the received characters over the console using the USART driver in asynchronous mode |
+| [USART driver synchronous mode single device](apps/driver/usart/sync/usart_echo/readme.md) | This example echoes the received characters over the console using the USART driver in synchronous mode |
+| [FAT filesystem using NVM driver](apps/fs/nvm_fat/readme.md) | This application shows an example of implementing a FAT disk in the device internal Flash memory |
+| [FAT filesystem using SD-SPI driver](apps/fs/sdspi_fat/readme.md) | This application shows an example of using the MPLAB Harmony File System to access and modify the contents of a SD card using the SDSPI driver and the SPI PLIB |
+| [FreeRTOS basic](apps/rtos/freertos/basic_freertos/readme.md) | This example application blinks an LED to show the FreeRTOS threads that are running and to indicate status |
+| [Console debug system service using UART](apps/system/console_debug/sys_console_debug_uart_read_write/readme.md) | This example application demonstrates the UART based console and debug system service |
+| [Timer system service multi-client](apps/system/time/sys_time_multiclient/readme.md) | This example application demonstrates the multi-client system timer functionalit |
 |||
 ____
 
