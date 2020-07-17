@@ -22,8 +22,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3"/>
           <PhysicalPath dnOrder="4">/../../</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">3C13720844166A5D97CF4EAD9DDB9FE2</GeneratedChecksum>
-          <UserChecksum dnOrder="6">3C13720844166A5D97CF4EAD9DDB9FE2</UserChecksum>
+          <GeneratedChecksum dnOrder="5"/>
+          <UserChecksum dnOrder="6"/>
         </File>
         <File dnOrder="2">
           <Type dnOrder="0">SOURCE</Type>
@@ -76,8 +76,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_mc00_curiosity_pro_freertos/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">AC14D1B72037D83BEE60A78AC2103D64</GeneratedChecksum>
-          <UserChecksum dnOrder="6">AC14D1B72037D83BEE60A78AC2103D64</UserChecksum>
+          <GeneratedChecksum dnOrder="5">52D6CB302A96344120B2C84B06C4EEDA</GeneratedChecksum>
+          <UserChecksum dnOrder="6">52D6CB302A96344120B2C84B06C4EEDA</UserChecksum>
         </File>
         <File dnOrder="8">
           <Type dnOrder="0">SOURCE</Type>
@@ -112,8 +112,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_mc00_curiosity_pro_freertos/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">982401DBC49CCA7F754911F355DECCE3</GeneratedChecksum>
-          <UserChecksum dnOrder="6">982401DBC49CCA7F754911F355DECCE3</UserChecksum>
+          <GeneratedChecksum dnOrder="5">3A0CB291F381E031241321C2F06645BC</GeneratedChecksum>
+          <UserChecksum dnOrder="6">3A0CB291F381E031241321C2F06645BC</UserChecksum>
         </File>
         <File dnOrder="12">
           <Type dnOrder="0">SOURCE</Type>
@@ -139,8 +139,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3"/>
           <PhysicalPath dnOrder="4">/../../</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">F81A00E640818EDFB9E79C9BD241AEF4</GeneratedChecksum>
-          <UserChecksum dnOrder="6">F81A00E640818EDFB9E79C9BD241AEF4</UserChecksum>
+          <GeneratedChecksum dnOrder="5"/>
+          <UserChecksum dnOrder="6"/>
         </File>
         <File dnOrder="15">
           <Type dnOrder="0">SOURCE</Type>
@@ -229,8 +229,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_mc00_curiosity_pro_freertos/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">1D663AF01040F617CC298F9373DE9B57</GeneratedChecksum>
-          <UserChecksum dnOrder="6">1D663AF01040F617CC298F9373DE9B57</UserChecksum>
+          <GeneratedChecksum dnOrder="5">7D8A70818A121F4892AC7968EC32BE8B</GeneratedChecksum>
+          <UserChecksum dnOrder="6">7D8A70818A121F4892AC7968EC32BE8B</UserChecksum>
         </File>
         <File dnOrder="25">
           <Type dnOrder="0">SOURCE</Type>
@@ -283,8 +283,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_mc00_curiosity_pro_freertos/stdio/</LogicalPath>
           <PhysicalPath dnOrder="4">/stdio/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">A9F55E7CB78F22D9000CA03DC635973C</GeneratedChecksum>
-          <UserChecksum dnOrder="6">A9F55E7CB78F22D9000CA03DC635973C</UserChecksum>
+          <GeneratedChecksum dnOrder="5">D25F6B390797A23B29C8109A91F047C4</GeneratedChecksum>
+          <UserChecksum dnOrder="6">D25F6B390797A23B29C8109A91F047C4</UserChecksum>
         </File>
         <File dnOrder="31">
           <Type dnOrder="0">HEADER</Type>
@@ -328,8 +328,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3"/>
           <PhysicalPath dnOrder="4">/../../</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">336C8E87CE40294B92A745B5F2E80300</GeneratedChecksum>
-          <UserChecksum dnOrder="6">336C8E87CE40294B92A745B5F2E80300</UserChecksum>
+          <GeneratedChecksum dnOrder="5"/>
+          <UserChecksum dnOrder="6"/>
         </File>
         <File dnOrder="36">
           <Type dnOrder="0">HEADER</Type>
@@ -472,8 +472,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">packs/PIC32CM1216MC00048_DFP/</LogicalPath>
           <PhysicalPath dnOrder="4">/../../packs/PIC32CM1216MC00048_DFP/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">2CF93C360D0B1BEE5EFCF5A8265561C0</GeneratedChecksum>
-          <UserChecksum dnOrder="6">2CF93C360D0B1BEE5EFCF5A8265561C0</UserChecksum>
+          <GeneratedChecksum dnOrder="5">42525D9ABA8BB83B277EA8689FCE5C9E</GeneratedChecksum>
+          <UserChecksum dnOrder="6">42525D9ABA8BB83B277EA8689FCE5C9E</UserChecksum>
         </File>
         <File dnOrder="52">
           <Type dnOrder="0">HEADER</Type>
@@ -796,8 +796,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_mc00_curiosity_pro_freertos/peripheral/port/</LogicalPath>
           <PhysicalPath dnOrder="4">/peripheral/port/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">F2C4D671A3909081AF1B39ED0C2D0C9B</GeneratedChecksum>
-          <UserChecksum dnOrder="6">F2C4D671A3909081AF1B39ED0C2D0C9B</UserChecksum>
+          <GeneratedChecksum dnOrder="5">B6A5CDC03F05CE16C81393AAAC7BF8A3</GeneratedChecksum>
+          <UserChecksum dnOrder="6">B6A5CDC03F05CE16C81393AAAC7BF8A3</UserChecksum>
         </File>
         <File dnOrder="88">
           <Type dnOrder="0">HEADER</Type>
@@ -1057,8 +1057,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_mc00_curiosity_pro_freertos/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">5D5CDFD3AB0E678AACDD28A3276C8099</GeneratedChecksum>
-          <UserChecksum dnOrder="6">5D5CDFD3AB0E678AACDD28A3276C8099</UserChecksum>
+          <GeneratedChecksum dnOrder="5">FD782F4B49D945E2B7398BEEDF367BDC</GeneratedChecksum>
+          <UserChecksum dnOrder="6">FD782F4B49D945E2B7398BEEDF367BDC</UserChecksum>
         </File>
         <File dnOrder="117">
           <Type dnOrder="0">HEADER</Type>
@@ -1075,8 +1075,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_mc00_curiosity_pro_freertos/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">4B3C3EF8A318908A22B78500515C3288</GeneratedChecksum>
-          <UserChecksum dnOrder="6">4B3C3EF8A318908A22B78500515C3288</UserChecksum>
+          <GeneratedChecksum dnOrder="5"/>
+          <UserChecksum dnOrder="6"/>
         </File>
         <File dnOrder="119">
           <Type dnOrder="0">HEADER</Type>
