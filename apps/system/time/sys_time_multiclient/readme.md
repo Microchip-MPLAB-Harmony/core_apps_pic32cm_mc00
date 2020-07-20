@@ -1,13 +1,13 @@
 ---
 parent: Harmony 3 core library application examples for PIC32CM MC00 family
-title: Timer system service multi-client
+title: Time system service multi-client
 has_children: false
 has_toc: false
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# Timer system service multi-client
+# Time System Service multi-client
 
 This example application demonstrates the multi-client system timer functionality
 

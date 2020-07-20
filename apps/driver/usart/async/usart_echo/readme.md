@@ -1,13 +1,13 @@
 ---
 parent: Harmony 3 core library application examples for PIC32CM MC00 family
-title: USART driver asynchronous mode single device
+title: USART driver asynchronous - UART echo
 has_children: false
 has_toc: false
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# USART driver asynchronous mode single device
+# USART driver asynchronous - UART echo
 
 This example echoes the received characters over the console using the USART driver in asynchronous mode.
 

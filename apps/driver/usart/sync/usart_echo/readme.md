@@ -1,13 +1,13 @@
 ---
 parent: Harmony 3 core library application examples for PIC32CM MC00 family
-title: USART driver synchronous mode single device
+title: USART driver synchronous - UART echo
 has_children: false
 has_toc: false
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# USART driver synchronous mode single device
+# USART driver synchronous - UART echo
 
 This example echoes the received characters over the console using the USART driver in synchronous mode.
 

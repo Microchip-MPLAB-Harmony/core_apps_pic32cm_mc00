@@ -1,13 +1,13 @@
 ---
 parent: Harmony 3 core library application examples for PIC32CM MC00 family
-title: I2C driver asynchronous mode single device
+title: I2C driver asynchronous - I2C EEPROM
 has_children: false
 has_toc: false
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# I2C driver asynchronous mode single device
+# I2C driver asynchronous - I2C EEPROM
 
 This example application shows how to use the I2C driver in asynchronous mode to perform operations on the EEPROM.
 
