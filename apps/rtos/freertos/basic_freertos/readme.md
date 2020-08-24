@@ -1,10 +1,3 @@
----
-parent: Harmony 3 core library application examples for PIC32CM MC00 family
-title: FreeRTOS basic
-has_children: false
-has_toc: false
----
-
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
 # FreeRTOS basic
