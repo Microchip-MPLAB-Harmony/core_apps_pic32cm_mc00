@@ -1,13 +1,6 @@
----
-parent: Harmony 3 core library application examples for PIC32CM MC00 family
-title: SPI Driver asynchronous - multi client 
-has_children: false
-has_toc: false
----
-
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# SPI Driver asynchronous - multi client 
+# SPI Driver asynchronous - multi slave 
 
 This example demonstrates how to use single instance of the SPI driver in asynchronous mode to communicate with multiple EEPROMs.
 
