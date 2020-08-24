@@ -19,6 +19,11 @@
             <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/driver/driver.h</itemPath>
             <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/driver/driver_common.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f5" displayName="osal" projectFiles="true">
+            <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/osal/osal.h</itemPath>
+            <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/osal/osal_definitions.h</itemPath>
+            <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/osal/osal_freertos.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
             <logicalFolder name="f5" displayName="clock" projectFiles="true">
               <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/peripheral/clock/plib_clock.h</itemPath>
@@ -61,6 +66,7 @@
           <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/device_cache.h</itemPath>
           <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/definitions.h</itemPath>
+          <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/device.h</itemPath>
           <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/FreeRTOSConfig.h</itemPath>
           <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/user.h</itemPath>
           <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/configuration.h</itemPath>
@@ -95,11 +101,6 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="f4" displayName="osal" projectFiles="true">
-        <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/osal/osal.h</itemPath>
-        <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/osal/osal_definitions.h</itemPath>
-        <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/osal/osal_freertos.h</itemPath>
-      </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
         <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
           <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
@@ -114,6 +115,7 @@
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm0plus.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -156,15 +158,29 @@
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/PIC32CM1216MC00048_DFP/pio/pic32cm1216mc00048.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/PIC32CM1216MC00048_DFP/device.h</itemPath>
           <itemPath>../src/packs/PIC32CM1216MC00048_DFP/pic32cm1216mc00048.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <itemPath>Makefile</itemPath>
+      <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/harmony.prj</itemPath>
+      <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/pic32cm_mc00_curiosity_pro_freertos.xml</itemPath>
+      <itemPath>../../../../../../../../mhc/../core_apps_pic32cm_mc00/apps/driver/usart/sync/usart_echo/firmware/src/config/pic32cm_mc00_curiosity_pro_freertos/pic32cm_mc00_curiosity_pro_freertos.xml</itemPath>
+    </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1"
+                       displayName="pic32cm_mc00_curiosity_pro_freertos"
+                       projectFiles="true">
+          <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/PIC32CM1216MC00048.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -181,6 +197,9 @@
               <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/driver/usart/src/drv_usart.c</itemPath>
               <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/driver/usart/src/drv_usart_local.h</itemPath>
             </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="f6" displayName="osal" projectFiles="true">
+            <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/osal/osal_freertos.c</itemPath>
           </logicalFolder>
           <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
             <logicalFolder name="f5" displayName="clock" projectFiles="true">
@@ -245,18 +264,8 @@
           <itemPath>../src/third_party/rtos/FreeRTOS/Source/stream_buffer.c</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="f3" displayName="osal" projectFiles="true">
-        <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/osal/osal_freertos.c</itemPath>
-      </logicalFolder>
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/app.c</itemPath>
-    </logicalFolder>
-    <logicalFolder name="ExternalFiles"
-                   displayName="Important Files"
-                   projectFiles="false">
-      <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/harmony.prj</itemPath>
-      <itemPath>../src/config/pic32cm_mc00_curiosity_pro_freertos/pic32cm_mc00_curiosity_pro_freertos.xml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -276,8 +285,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
         <pack name="PIC32CM-MC_DFP" vendor="Microchip" version="1.0.15"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -433,7 +442,8 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/pic32cm_mc00_curiosity_pro_freertos;../src/packs/PIC32CM1216MC00048_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -491,8 +501,6 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-1ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="D:/harmony/apps/core/core_apps_pic32cm_mc00/apps/driver/usart/sync/usart_echo/firmware/pic32cm_mc00_curiosity_pro_freertos.X/debug/pic32cm_mc00_curiosity_pro_freertos/pic32cm_mc00_curiosity_pro_freertos_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
