@@ -1,10 +1,3 @@
----
-parent: Harmony 3 core library application examples for PIC32CM MC00 family
-title: Console Debug System Service using UART
-has_children: false
-has_toc: false
----
-
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
 # Console Debug System Service using UART
