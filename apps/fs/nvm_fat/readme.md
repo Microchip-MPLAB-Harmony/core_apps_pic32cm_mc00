@@ -1,10 +1,3 @@
----
-parent: Harmony 3 core library application examples for PIC32CM MC00 family
-title: FAT filesystem using NVM driver
-has_children: false
-has_toc: false
----
-
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
 # FAT filesystem using NVM driver
@@ -23,7 +16,9 @@ During execution, the application first opens an existing file named FILE.TXT an
 - **SYS_FS_FileSeek**
 - **SYS_FS_FileEOF**
 
-It tries to read the file and checks if string "Data" is present. If present it continues to next step or it fails the application. Finally, the string "Hello World" is written to this file. The string is then read and compared with the string that was written to the file. If the string compare is successful, An LED indication is provided.
+- It tries to read the file and checks if string **"Data"** is present. If present it continues to next step or it fails the application
+
+- Finally, the string **"Hello World"** is written to this file. The string is then read and compared with the string that was written to the file. If the string compare is successful, An LED indication is provided
 
 ### File system layer uses:
 
