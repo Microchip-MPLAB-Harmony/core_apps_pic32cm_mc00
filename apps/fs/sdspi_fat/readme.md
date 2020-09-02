@@ -1,3 +1,10 @@
+---
+parent: Harmony 3 driver and system service application examples for PIC32CM MC00 family
+title: FAT filesystem using using SD Card media 
+has_children: false
+has_toc: false
+---
+
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
 # FAT filesystem using using SD Card media
