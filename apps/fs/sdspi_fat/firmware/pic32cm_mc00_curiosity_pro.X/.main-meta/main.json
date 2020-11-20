@@ -1,0 +1,73 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.core_apps_pic32cm_mc00_fs_sdspi_fat_pic32cm_mc00_curiosity_pro",
+		"version": "3.0.1",
+		"displayName": "FAT filesystem using using SD Card media Example for PIC32CM MC Family",
+		"projectName": "sdspi_fat_pic32cm_mc00_curiosity_pro",
+		"shortDescription": "This application shows an example of using the MPLAB Harmony File System to access and modify the contents of a SD card using the SDSPI driver and the SPI PLIB.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "CMSIS",
+			"semverRange": "^5.4.0"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.5.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32CM1216MC00048",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32CM MC00 Curiosity Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Middleware", "File System (FS)", "SDSPI_FAT"
+			],
+			[
+				"File System (FS)", "SDSPI_FAT"
+			]
+		],
+		"peripherals": [
+			"SDSPI_FAT"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"File System",
+			"PIC32CM1216MC00048",
+			"PIC32CM MC Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,75 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.core_apps_pic32cm_mc00_system_console_debug_sys_console_debug_uart_read_write_pic32cm_mc00_curiosity_pro",
+		"version": "3.0.1",
+		"displayName": "Console Debug System Service using UART Example for PIC32CM MC Family",
+		"projectName": "console_debug_pic32cm_mc00_curiosity_pro",
+		"shortDescription": "This example application demonstrates the UART based console and debug system service.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32CM-MC_DFP",
+			"semverRange": "^1.0.15"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.5.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32CM1216MC00048",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32CM MC00 Curiosity Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "System Services", "CONSOLE_DEBUG"
+			]
+		],
+		"peripherals": [
+			"CONSOLE_DEBUG"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"PIC32CM1216MC00048",
+			"PIC32CM MC Family",
+			"UART",
+			"Console",
+			"Serial Communication",
+			"USART",
+			"SERCOM",
+			"FLEXCOM"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
