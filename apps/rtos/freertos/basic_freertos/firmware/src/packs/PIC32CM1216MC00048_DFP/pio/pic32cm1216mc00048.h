@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-08-03T13:06:09Z */
+/* file generated from device description version 2020-08-13T21:04:01Z */
 #ifndef _PIC32CM1216MC00048_GPIO_H_
 #define _PIC32CM1216MC00048_GPIO_H_
 
