@@ -10,14 +10,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: eic, value: '8192'}
-  - type: KeyValueSet
-    attributes: {id: EIC_ASYNCH_13}
-    children:
-    - type: Values
-      children:
-      - type: User
-        attributes: {value: '1'}
+        attributes: {id: eic, value: '0'}
   - type: Boolean
     attributes: {id: EIC_CHAN_13}
     children:

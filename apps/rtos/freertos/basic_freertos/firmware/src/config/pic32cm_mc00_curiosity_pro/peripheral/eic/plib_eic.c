@@ -100,8 +100,6 @@ void EIC_Initialize (void)
                               EIC_CONFIG1_SENSE14_NONE  |
                               EIC_CONFIG1_SENSE15_NONE ;
 
-    /* External Interrupt Asynchronous Mode enable */
-    EIC_REGS->EIC_ASYNCH = 0x2000;
 
 
 
