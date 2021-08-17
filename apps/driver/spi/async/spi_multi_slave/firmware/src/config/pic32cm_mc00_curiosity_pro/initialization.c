@@ -93,7 +93,7 @@ const DRV_SPI_PLIB_INTERFACE drvSPI0PlibAPI = {
     .writeRead = (DRV_SPI_PLIB_WRITE_READ)SERCOM1_SPI_WriteRead,
 
     /* SPI PLIB Transfer Status function */
-    .isBusy = (DRV_SPI_PLIB_IS_BUSY)SERCOM1_SPI_IsBusy,
+    .isTransmitterBusy = (DRV_SPI_PLIB_TRANSMITTER_IS_BUSY)SERCOM1_SPI_IsTransmitterBusy,
 
     /* SPI PLIB Callback Register */
     .callbackRegister = (DRV_SPI_PLIB_CALLBACK_REGISTER)SERCOM1_SPI_CallbackRegister,
