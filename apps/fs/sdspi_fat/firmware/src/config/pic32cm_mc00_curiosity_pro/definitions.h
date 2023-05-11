@@ -55,8 +55,8 @@
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/dmac/plib_dmac.h"
-#include "peripheral/tc/plib_tc0.h"
 #include "bsp/bsp.h"
+#include "peripheral/tc/plib_tc0.h"
 #include "driver/sdspi/drv_sdspi.h"
 #include "system/time/sys_time.h"
 #include "system/fs/sys_fs.h"
@@ -81,6 +81,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "PIC32CM1216MC00048"
+#define DEVICE_ARCH			 "CORTEX-M0PLUS"
+#define DEVICE_FAMILY		 "PIC32CMMC"
+#define DEVICE_SERIES		 "PIC32CMMC00"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 48000000
