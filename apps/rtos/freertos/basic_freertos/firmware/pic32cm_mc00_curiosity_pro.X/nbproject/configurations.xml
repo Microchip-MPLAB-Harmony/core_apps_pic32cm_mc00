@@ -215,7 +215,7 @@
         <itemPath>basic_freertos_pic32cm_mc00_curiosity_pro_pic32cm_mc00_curiosity_pro/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32cm_mc00_curiosity_pro/harmony-manifest-success.yml</itemPath>
+      <itemPath>../src/config/pic32cm_mc00_curiosity_pro/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -325,7 +325,7 @@
       </toolsSet>
       <packs>
         <pack name="PIC32CM-MC_DFP" vendor="Microchip" version="1.4.67"/>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="CMSIS" vendor="ARM" version="5.9.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>

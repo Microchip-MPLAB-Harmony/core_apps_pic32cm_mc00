@@ -32,7 +32,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32cm_mc00_curiosity_pro_freertos\configuration.h
   hash: a32642d69ae02dc9bf66699861150ac7785c6167c7917475c50b41198c25f1e5
 - file: ..\src\config\pic32cm_mc00_curiosity_pro_freertos\definitions.h
-  hash: 371e3e73845b5b739f93cd0454c140154e3e440b72e030d44d12e8d41a885ab2
+  hash: 3df3183d06653455f114a2def806d0573d640d64a418ba6f21cab22a3d1a09f0
 - file: ..\src\config\pic32cm_mc00_curiosity_pro_freertos\device.h
   hash: 448c110cde0f44c232f87e8190040830c03f0e2e46e638b812296db48081e74b
 - file: ..\src\config\pic32cm_mc00_curiosity_pro_freertos\device_cache.h
@@ -56,7 +56,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32cm_mc00_curiosity_pro_freertos\freertos_hooks.c
   hash: c97b8f92ad60ff513a27ac7a27b3c6824b75005eb8f7b85fe5ae18deaf568c4e
 - file: ..\src\config\pic32cm_mc00_curiosity_pro_freertos\initialization.c
-  hash: 8e7c62ddf520a3f2d5e06f7222586bae88ab8c6e743cd71368836f04bcbb1658
+  hash: 07a9aedd734f3a309cb1931da2ab48e3d3cc2f6d01c15d1e4420764369f73ff2
 - file: ..\src\config\pic32cm_mc00_curiosity_pro_freertos\interrupts.c
   hash: 82fa758931916e37a3f67ae6feca28a5a0ed94e4de8ab14cea22216eb9934dd4
 - file: ..\src\config\pic32cm_mc00_curiosity_pro_freertos\interrupts.h

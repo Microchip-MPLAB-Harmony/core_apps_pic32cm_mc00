@@ -29,7 +29,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32cm_mc00_curiosity_pro\configuration.h
   hash: 6d02af7fb7ed204d61161a641f9cfc801f7416d5639126d0179a8b748f895b8d
 - file: ..\src\config\pic32cm_mc00_curiosity_pro\definitions.h
-  hash: d11f27d25e8d5db2db9956db927d53881ad2a5ee658b2697fe001b2684ef8281
+  hash: 2c03cca5f7ce147741218890648bd0e875666d564da4eb5171aebeedb0339b44
 - file: ..\src\config\pic32cm_mc00_curiosity_pro\device.h
   hash: 448c110cde0f44c232f87e8190040830c03f0e2e46e638b812296db48081e74b
 - file: ..\src\config\pic32cm_mc00_curiosity_pro\device_cache.h
@@ -51,7 +51,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32cm_mc00_curiosity_pro\exceptions.c
   hash: b0b65c30aa1f7a01ef7be6c1628c331a5ca3eae7dc3bd76ebe647703b76f432d
 - file: ..\src\config\pic32cm_mc00_curiosity_pro\initialization.c
-  hash: 5e9b35e742060d39254a994766f8413f73e5e7d285d3cf0bfd94c92cdfeff174
+  hash: 7df80bb4b1a9ee3808a1f8fe1ec0ad9325242e2dab1ec42542c03ae7b377bca5
 - file: ..\src\config\pic32cm_mc00_curiosity_pro\interrupts.c
   hash: 006bbbbaa0f11ce3a349545d2f8aabdeb641d42e033a22f3d02e3f23cece9f24
 - file: ..\src\config\pic32cm_mc00_curiosity_pro\interrupts.h
